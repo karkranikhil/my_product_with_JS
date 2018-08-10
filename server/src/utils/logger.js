@@ -1,5 +1,6 @@
 import winston from 'winston';
- export const logger = new winston.Logger({
+
+export const logger = winston.createLogger({
   transports: [
     new winston.transports.Console({
       level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
@@ -10,7 +11,8 @@ import winston from 'winston';
     }),
   ],
 });
- // create stream for morgan
+// create stream for morgan
 logger.stream = {
   write: message => logger.info(message),
 };
+export default {};

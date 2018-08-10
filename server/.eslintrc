@@ -2,7 +2,8 @@
     "parser": "babel-eslint",
     "extends": "airbnb",
     "rules": {
-        "linebreak-style": 0,
+      "linebreak-style": 0,
+      "prefer-default-export":false,
       "object-curly-spacing": ["warn", "never"],
       "func-names": "off",
       "space-before-function-paren": ["error", "never"],
