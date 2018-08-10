@@ -4,11 +4,47 @@
   "description": "Experts REST backend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "eslint src/ && babel-node test/"
   },
   "keywords": [
-    "rest", "javascript", "experts"
+    "git",
+    "rest",
+    "javascript",
+    "experts"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karkranikhil/my_product_with_JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karkranikhil/my_product_with_JS/issues"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node",
+      "stage-0"
+    ]
+  },
   "author": "Nikhil karkra",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "supertest": "^3.1.0",
+    "tape": "^4.9.1"
+  }
 }

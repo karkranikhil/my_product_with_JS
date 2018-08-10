@@ -16,5 +16,12 @@
     <li>git branch -d test --> it delete the branch test</li>
     <li>rm test.md --> it remove particular file</li>
     <li>git push -u origin develop --> push the code to develop</li>
+    <li>git add -i --> techique to commit selective piece of code and select patch</li>
+    <li>git stash --> stash the changes</li>
+    <li>git stash list--> give s the list of stash list</li>
+    <li>git stash apply--> unstash the changes</li>
+    <li>git stash drop stash@{0}--> remove the stash</li>
     </ol>
     
+    #### Setup babel and eslint 
+         npm install "babel-core babel-eslint babel-preset-es2015-node babel-preset-stage-0 eslint eslint-config-airbnb eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react"
