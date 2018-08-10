@@ -23,5 +23,5 @@
     <li>git stash drop stash@{0}--> remove the stash</li>
     </ol>
     
-    #### Babel
-    
+    #### Setup babel and eslint 
+         npm install "babel-core babel-eslint babel-preset-es2015-node babel-preset-stage-0 eslint eslint-config-airbnb eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react"

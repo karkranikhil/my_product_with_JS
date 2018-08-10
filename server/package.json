@@ -4,7 +4,7 @@
   "description": "Experts REST backend",
   "main": "index.js",
   "scripts": {
-    "test": "eslint src/"
+    "test": "eslint src/ && babel-node test/"
   },
   "keywords": [
     "git",
@@ -28,6 +28,7 @@
   "author": "Nikhil karkra",
   "license": "MIT",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3"
   },
   "devDependencies": {
@@ -39,6 +40,8 @@
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-react": "^7.10.0"
+    "eslint-plugin-react": "^7.10.0",
+    "supertest": "^3.1.0",
+    "tape": "^4.9.1"
   }
 }
