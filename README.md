@@ -16,5 +16,7 @@
     <li>git branch -d test --> it delete the branch test</li>
     <li>rm test.md --> it remove particular file</li>
     <li>git push -u origin develop --> push the code to develop</li>
+    <li>git add -i --> techique to commit selective piece of code and select patch</li>
     </ol>
+    
     
